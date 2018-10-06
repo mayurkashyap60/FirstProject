@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#295598"
+        android:textSize="25sp"
+        android:text="@string/register"/>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint3"
+        android:id="@+id/name"/>
+        
+    
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address" />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:id="@+id/address"/>
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact"
+        android:id="@+id/contact"/>
+    </TableRow>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender" />
+    
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/gender">
+    
+    <RadioButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/male"
+        android:text="@string/male"
+        android:checked="false"/>
+    
+    <RadioButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/female"
+        android:checked="false"
+        android:text="@string/female"/>
+    
+    </RadioGroup>
+
+   </TableRow>
+
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course" />
+    
+        <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course"
+        android:id="@+id/course"/>
+        </TableRow>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/submit"
+        android:layout_gravity="center"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv" />
+
+</LinearLayout>

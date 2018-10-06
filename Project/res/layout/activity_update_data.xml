@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#295598"
+        android:textSize="25sp"
+        android:text="@string/update"/>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uid" />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint4"
+        android:id="@+id/uid" />    
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint3"
+        android:id="@+id/uname" />
+        
+    
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address" />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:id="@+id/uaddress"/>
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact"
+        android:id="@+id/ucontact"/>
+    </TableRow>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender" />
+    
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/ugender">
+    
+    <RadioButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/umale"
+        android:text="@string/male"
+        android:checked="false"/>
+    
+    <RadioButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ufemale"
+        android:checked="false"
+        android:text="@string/female"/>
+    
+    </RadioGroup>
+
+   </TableRow>
+
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course" />
+    
+        <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course"
+        android:id="@+id/ucourse"/>
+        </TableRow>
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/usubmit"
+        android:layout_gravity="center"/>
+    
+    
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="project">Project</string>
+    <string name="copy">Copyright@2018. All Right Reserved.</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="name">Name :</string>
+    <string name="phone">Phone No. :</string>
+    <string name="hint1">Enter Name</string>
+    <string name="hint2">Enter Phone No.</string>
+    <string name="hint3">Name</string>
+    <string name="uid">ID :</string>
+    <string name="hint4">Enter Your ID</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="course">Course</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_tables">Tables</string>
+    <string name="showdata">ShowData</string>
+    <string name="title_activity_operation">Operation</string>
+    <string name="show">Show Data</string>
+    <string name="update">Update Data</string>
+    <string name="title_activity_update_data">UpdateData</string>
+    <string name="dataupdate">Update Your Data</string>
+    <string name="title_activity_showdata">Showdata</string>
+    <string name="done">Done</string>
+    <string name="checkdata">Check Your Data</string>
+    <string name="title_activity_ufilter">UFilter</string>
+    <string name="hellouser">Hello User</string>
+
+</resources>

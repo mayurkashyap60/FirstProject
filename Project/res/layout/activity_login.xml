@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#295598"
+        android:textSize="25sp"
+        android:text="@string/login"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/name"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint1"
+        android:id="@+id/namelog"/>
+
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/phone"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint2"
+        android:id="@+id/contactlog"/>
+    
+    </TableRow>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"/>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/login"/>
+
+</LinearLayout>

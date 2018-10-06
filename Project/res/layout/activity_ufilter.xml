@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#295598"
+        android:textSize="25sp"
+        android:text="@string/dataupdate"/>
+    
+    
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uid" />
+    
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint4"
+        android:inputType="number"
+        android:id="@+id/uid"/>
+    
+    </TableRow>    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:id="@+id/btn"/>
+
+</LinearLayout>
